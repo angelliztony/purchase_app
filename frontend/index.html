@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purchase Requisition</title>
+</head>
+<body>
+
+<h2>Purchase Requisition Form</h2>
+
+<form action="http://127.0.0.1:8000/submit" method="post">
+
+    Category:
+    <input type="text" name="category" required><br><br>
+
+    Expense Head:
+    <input type="text" name="expense_head" required><br><br>
+
+    Company:
+    <input type="text" name="company" required><br><br>
+
+    Division:
+    <input type="text" name="division" required><br><br>
+
+    Subdivision:
+    <input type="text" name="subdivision" required><br><br>
+
+    Job No:
+    <input type="text" name="job_no"><br><br>
+
+    Description:
+    <textarea name="description"></textarea><br><br>
+
+    Subject:
+    <input type="text" name="subject" required><br><br>
+
+    Expected Delivery Date:
+    <input type="date" name="expected_date" required><br><br>
+
+    Expected Delivery Time:
+    <input type="time" name="expected_time"><br><br>
+
+    Sales Order No:
+    <input type="text" name="sales_order_no"><br><br>
+
+    Work Order No:
+    <input type="text" name="work_order_no"><br><br>
+
+    Preferred Supplier:
+    <select name="preferred_supplier" required>
+        <option value="">Select</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select><br><br>
+
+    Recommended Brand:
+    <input type="text" name="recommended_brand"><br><br>
+
+    Requested By:
+    <input type="text" name="requested_by" required><br><br>
+
+    <button type="submit">SAVE</button>
+
+</form>
+
+</body>
+</html>
+
+
